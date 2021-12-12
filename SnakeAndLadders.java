@@ -55,7 +55,7 @@ class SnakeAndLadders{
 		//Game
 		while(!que.peek().isWon()){
 			Player frontPlayer=que.poll();
-			PlayGame.play(frontPlayer,2);
+			PlayGame.play(frontPlayer,noOfDice);
 			if(frontPlayer.isWon()){
 				break;
 			}
