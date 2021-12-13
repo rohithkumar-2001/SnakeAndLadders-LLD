@@ -17,7 +17,7 @@ class Dice{
 
 	public static int multipleDiceResult(int n){
 
-		return (int)(((Math.random() * n*6)+n)%n)+1;
+		return (int)(((Math.random() * n*6)+n)%6)+1;
 		
 	}
 
